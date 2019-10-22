@@ -31,12 +31,12 @@
     "replace": "^1.1.1"
   },
   "devDependencies": {
-    "np": "5.1.1",
+    "np": "4.0.2",
     "uglify-es": "github:mishoo/UglifyJS2#harmony",
     "wct-browser-legacy": "1.0.2",
     "web-component-tester": "6.9.2"
   },
   "publishConfig": {
-    "registry": "http://acd-npm.repository.milieuinfo.be/"
+    "registry": "https://acd-npm.repository.milieuinfo.be/"
   }
 }
