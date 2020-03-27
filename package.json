@@ -28,7 +28,7 @@
   "dependencies": {
     "vl-ui-util": "^2.0.5",
     "vl-ui-core": "^2.0.0",
-    "replace": "^1.1.1"
+    "replace": "^1.1.5"
   },
   "devDependencies": {
     "np": "4.0.2",
