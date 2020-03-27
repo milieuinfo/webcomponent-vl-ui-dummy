@@ -31,7 +31,7 @@
     "replace": "^1.1.1"
   },
   "devDependencies": {
-    "np": "4.0.2",
+    "np": "6.2.0",
     "uglify-es": "github:mishoo/UglifyJS2#harmony",
     "wct-browser-legacy": "1.0.2",
     "web-component-tester": "6.9.2"
