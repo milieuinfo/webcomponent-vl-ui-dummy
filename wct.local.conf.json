@@ -1,13 +1,14 @@
 {
-  "expanded": true,
-  "npm": true,
-  "plugins": {
-      "local": {
-          "browsers": ["chrome", "firefox"]
-      },    
-      "wct-junit": {
-        "outputDir": "../../test/wct/"
-      }
-  },
-  "suites": ["test/unit/*.test.html"]
-}
+    "expanded": true,
+    "npm": true,
+    "plugins": {
+        "local": {
+            "browsers": ["chrome", "firefox"]
+        },    
+        "wct-junit": {
+            "outputDir": "../../test/"
+          }
+    },
+    "suites": ["test/unit/*.test.html"]
+  }
+  
