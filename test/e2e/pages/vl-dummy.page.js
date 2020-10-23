@@ -1,15 +1,14 @@
-/* eslint-disable no-unused-vars */
-const VLDummy = require('../components/vl-dummy');
+const VlDummy = require('../components/vl-dummy');
 const {Page, Config} = require('vl-ui-core').Test;
 
-class VLDummyPage extends Page {
+class VlDummyPage extends Page {
   async _getDummy(selector) {
     return new VlDummy(this.driver, selector);
   }
 
   async load() {
-    await super.load(config.baseUrl);
+    await super.load(Config.baseUrl + '/demo/vl-dummy.html');
   }
 }
 
-module.exports = VLDummyPage;
+module.exports = VlDummyPage;

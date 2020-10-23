@@ -1,14 +1,14 @@
-/* eslint-disable no-unused-vars */
 const {assert, driver} = require('vl-ui-core').Test.Setup;
-const VLDummyPage = require('./pages/vl-dummy.page');
+const VlDummyPage = require('./pages/vl-dummy.page');
 
 describe('vl-dummy', async () => {
-  const VLDummyPage = new VLDummyPage(driver);
+  const vlDummyPage = new VlDummyPage(driver);
 
   before(() => {
-    return VLDummyPage.load();
+    return vlDummyPage.load();
   });
 
-  it('', async () => {
+  it('dit is een test', async () => {
+    assert.isTrue(true);
   });
 });
