@@ -5,9 +5,9 @@
       "local": {
           "browsers": ["chrome", "firefox"]
       },    
-      "xunit-reporter": {
-          "output": "../../test/wct-results.xml"
-        }
+      "wct-junit": {
+        "outputDir": "../../test/wct/"
+      }
   },
   "suites": ["test/unit/*.test.html"]
 }
