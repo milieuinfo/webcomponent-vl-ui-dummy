@@ -51,6 +51,3 @@ Zie de lijst van [ontwikkelaars](https://github.com/milieuinfo/webcomponent-vl-u
 
 ## Contact
 Heb je suggesties, opmerkingen of tips? Voel je dan vrij om ons te contacteren via help@omgevingvlaanderen.be.
-
-
-test
